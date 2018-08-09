@@ -1,0 +1,47 @@
+body {
+  color: #333;
+  font-size: 16px;
+}
+
+.section {
+	padding-bottom: 30px;
+	padding-top: 0;
+	position: relative;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.theme-color {
+	color: #7F2D28;
+}
+
+.theme-bkg {
+  background-color: #7F2D28;
+}
+
+.theme-font-family {
+  font-family: Raleway;
+}
+
+.page-title {
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+  font-size: 2.92rem;
+}
+
+#experience, #education {
+background:  url(./assets/exppic.jpg);
+background-position: top center;
+background-size: cover;
+}
+
+.btn-floating.btn-large i {
+  background-color: #7F2D28;
+}
+
+
