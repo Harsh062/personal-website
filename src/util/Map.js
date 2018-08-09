@@ -1,10 +1,12 @@
-import React from "react"
-import { compose, withProps } from "recompose"
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
+import React from "react";
+import { compose, withProps } from "recompose";
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps";
+
+import keys from '../config/keys';
 
 const Map = compose(
     withProps({
-      googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyAs0BJlms-SFa-EO-JN_ETVeN9Xqv1AD1k",
+      googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${keys.mapsApiKey}`,
       loadingElement: <div style={{ height: `100%` }} />,
       containerElement: <div style={{ height: `500px` }} />,
       mapElement: <div style={{ height: `100%` }} />,

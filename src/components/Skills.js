@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="container">
           <div className="card">
             <div className="card-content">
-              <h4 className="theme-color light">HTML/CSS</h4>
+              <h4 className="link-color light">HTML/CSS</h4>
               <div className="row text-center">
                 <div className="col s4 m2 theme-color"><img alt="HTML5" src="./assets/html5.png" className="responsive-img" />HTML5</div>
                 <div className="col s4 m2 theme-color"><img alt="JSX" src="./assets/react.png" className="responsive-img" />JSX</div>
@@ -21,7 +21,7 @@ const Skills = () => {
           </div>
           <div className="card">
             <div className="card-content">
-              <h4 className="theme-color light">Javascript</h4>
+              <h4 className="link-color light">Javascript</h4>
               <div className="row text-center">
                 <div className="col s4 m2 theme-color"><img alt="Javascript" src="./assets/javascript.png" className="responsive-img" />Javascript</div>
                 <div className="col s4 m2 theme-color"><img alt="React" src="./assets/react.png" className="responsive-img" />React</div>
@@ -32,7 +32,7 @@ const Skills = () => {
           </div>
           <div className="card">
             <div className="card-content">
-              <h4 className="theme-color light">Back-End</h4>
+              <h4 className="link-color light">Back-End</h4>
               <div className="row text-center">
                 <div className="col s4 m2 theme-color"><img alt="NodeJs" src="./assets/nodejs.png" className="responsive-img" />NodeJs</div>
                 <div className="col s4 m2 theme-color"><img alt="MongoDB" src="./assets/mongodb.png" className="responsive-img" />MongoDB</div>
@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
           <div className="card">
             <div className="card-content">
-              <h4 className="theme-color light">Build Tools</h4>
+              <h4 className="link-color light">Build Tools</h4>
               <div className="row text-center">
                 <div className="col s4 m2 theme-color"><img alt="Webpack" src="./assets/webpack.png" className="responsive-img" />Webpack</div>
                 <div className="col s4 m2 theme-color"><img alt="Gulp" src="./assets/gulp.png" className="responsive-img" />Gulp</div>
@@ -52,7 +52,7 @@ const Skills = () => {
           </div>
           <div className="card">
             <div className="card-content">
-              <h4 className="brown-text light">Other</h4>
+              <h4 className="link-color light">Other</h4>
               <div className="row text-center">
                 <div className="col s4 m2 theme-color"><img alt="Github" src="./assets/github.png" className="responsive-img" />Github</div>
                 <div className="col s4 m2 theme-color"><img alt="Heroku" src="./assets/heroku.png" className="responsive-img" />Heroku</div>

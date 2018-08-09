@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import SideNav from './components/SideNav';
+import SideNavBar from './components/SideNav';
 import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SideNav />
+        <SideNavBar />
         <main>
         <Home />
         <About />

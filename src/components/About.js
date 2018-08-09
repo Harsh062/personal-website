@@ -9,7 +9,7 @@ const About = () => {
         <div className="page-title white-text theme-bkg">About</div>
         <div className="container">
           <blockquote>
-            <div className="theme-font-family">A self-driven, workoholic tech enthusiast with a passion for building great products & using technology to solve real-world problems.</div>
+            <div className="cursive">A self-driven, workoholic tech enthusiast with a passion for building great products & using technology to solve real-world problems.</div>
           </blockquote>
           <div className="desc">
           <div>Hello! My name is Harsh Gandhi, and I'm a freelance, full-stack web developer, experienced with all phases of the web development life cycle.</div>

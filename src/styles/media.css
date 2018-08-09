@@ -16,8 +16,14 @@
 	}
 }
 @media (max-width: 992px) {
+	blockquote {
+		border-left: none;
+	}
+	blockquote div {
+		text-align: center;
+	}
 	main {
-		padding-left: 0px;
+		padding-left: 0px !important;
 		padding-top: 64px;
 	}
 	ul.side-nav a {
@@ -71,11 +77,11 @@
     display: block;
     font-size: 14px;
 	}
-	h3,
+	/* h3,
 	.container {
     position: relative;
     top: 64px;
-	}
+	} */
 	section#home {
 	    margin-bottom: -64px;
 	}
@@ -89,6 +95,12 @@
 
 
 @media (max-width: 600px) {
+	blockquote {
+		border-left: none;
+	}
+	blockquote div {
+		text-align: center;
+	}
 	h2 {
 	  font-size: 22px;
 	  line-height: 200%;
@@ -98,8 +110,14 @@
 		padding: 0;
 	}
 	.card .card-content .card-title {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px;
+	}
+	.card .card-title p {
+		font-size: 20px;
+	}
+	.card .card-content li {
+		font-size: 18px;
 	}
 	#experience span.card-title {
     text-align: center;
